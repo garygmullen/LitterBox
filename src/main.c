@@ -6,5 +6,6 @@ int main(
    )
 {
     printf ( "A silly mesg: Hello World !\n" );
+    printf ( "Turn off syntax expansion." );
     return 0;
 }
