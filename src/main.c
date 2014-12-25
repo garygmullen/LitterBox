@@ -4,7 +4,7 @@ static int printMesg(
    void
    )
 {
-    printf ( "A silly mesg: Hello World !\n" );
+    printf ( "A silly mesg: Hi there!\n" );
     printf ( "Turn off syntax expansion." );
     return 0;
 }
