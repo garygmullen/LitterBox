@@ -4,11 +4,13 @@
 
 #include "base.h"
 
+static char *mesg = "Hello, World!";
+
 static int printMesg(
    void
    )
 {
-    printf ( "Hello, World!\n" );
+    printf ( "%s\n", mesg );
     printf ( "Turn off syntax expansion." );
     return 0;
 }
