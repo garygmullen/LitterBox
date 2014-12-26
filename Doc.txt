@@ -1,1 +1,1 @@
-This is a document file
+Top level document for this project. Not much to say, as this is just an example of how to use Git.
