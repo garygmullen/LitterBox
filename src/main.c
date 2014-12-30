@@ -27,6 +27,6 @@ int main(
    char **argv
    )
 {
-    printf("Rand %d\n", dummyFunc() );
+    printf("Rand %d\n", dummyFunc() *2 );
     return printMesg();
 }
