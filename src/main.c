@@ -6,6 +6,13 @@
 
 static char *mesg = "Hello, World!";
 
+static int dummyFunc(
+   void
+   )
+{
+    return rand();
+}
+
 static int printMesg(
    void
    )
@@ -20,6 +27,6 @@ int main(
    char **argv
    )
 {
-    (void) printMesg();
-    return 0;
+    printf("Rand %d\n", dummyFunc() );
+    return printMesg();
 }
