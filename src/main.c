@@ -28,5 +28,6 @@ int main(
    )
 {
     printf("Rand %d\n", dummyFunc() *2 );
+    /* return the value from printMesg()*/
     return printMesg();
 }
